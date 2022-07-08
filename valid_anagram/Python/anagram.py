@@ -1,4 +1,7 @@
 # 242. Valid Anagram
+# Definition: An anagram is a word, phrase, or name formed by rearranging the
+#             letters of another, such as cinema, formed from iceman.
+
 def Anagram_Hash(s: str, t: str) -> bool:
     if len(s) != len(t):
         return False
